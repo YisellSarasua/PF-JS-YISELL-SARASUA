@@ -162,6 +162,7 @@ body {
 #registro .password div input {
   background-color: transparent;
   border: none;
+  width: 250px;
 }
 #registro .password .icon {
   width: 44px;
@@ -184,6 +185,55 @@ body {
   color: white;
 }
 #registro .botonPrincipalInactivo:hover {
+  transform: scale(1.1, 1.1);
+  transition: all 1s;
+}
+#registro .iniciarSesion {
+  width: 200px;
+  font-family: Ubuntu, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 100px;
+  text-decoration: none;
+}
+
+#welcome {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 800px;
+  background-color: #37BB0A;
+}
+#welcome .title {
+  font-family: Ubuntu, sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+  text-align: center;
+  width: 300px;
+  color: white;
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+#welcome .botonPrincipalActivo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 314px;
+  height: 44px;
+  border-radius: 8px;
+  border: none;
+  background-color: #fbfcfb;
+  text-decoration: none;
+  font-family: Ubuntu, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  color: #37BB0A;
+}
+#welcome .botonPrincipalActivo:hover {
   transform: scale(1.1, 1.1);
   transition: all 1s;
 }
