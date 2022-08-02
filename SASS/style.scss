@@ -11,17 +11,31 @@ body{
    
 
     .botonPrincipalActivo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
         width: 314px;
         height: 44px;
         border-radius: 8px;
         border: none;
         background-color:#37BB0A ;
+        text-decoration: none;
+
         font-family: Ubuntu, sans-serif;
         font-weight: 500;
         font-size: 18px;
         color: white;
-    
-    }
+
+            &:hover{
+                
+                transform: scale(1.1 , 1.1);
+                transition: all 1s;
+               
+               
+            }
+    } 
 
     img{
         width: 237px;
@@ -30,5 +44,67 @@ body{
         margin-top: 100px;
 
     }
+
+}
+
+.cardInicio{
+
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-bottom: 200px;
+
+   .img{
+        width: 335px;
+        height: 348;
+        margin-bottom: 100px;
+        margin-top: 100px;
+   }
+
+   .title{
+        font-family: Ubuntu, sans-serif;
+        font-weight: 700;
+        font-size: 16px;
+        text-align: center;
+        width: 150px;
+
+   }
+
+   .subtitle{
+    font-family: Ubuntu, sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    text-align: center;
+    margin-bottom: 100px;
+    width: 240px;
+
+    }
+
+    .botonPrincipalActivo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        width: 314px;
+        height: 44px;
+        border-radius: 8px;
+        border: none;
+        background-color:#37BB0A ;
+        text-decoration: none;
+
+        font-family: Ubuntu, sans-serif;
+        font-weight: 500;
+        font-size: 18px;
+        color: white;
+
+            &:hover{
+                
+                transform: scale(1.1 , 1.1);
+                transition: all 1s;
+               
+               
+            }
+    } 
 
 }
