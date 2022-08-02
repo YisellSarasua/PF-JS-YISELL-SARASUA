@@ -82,4 +82,110 @@ body {
   transition: all 1s;
 }
 
+.serViajero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.serViajero .img {
+  width: 300px;
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+.serViajero .botonPrincipalActivo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 314px;
+  height: 44px;
+  border-radius: 8px;
+  border: none;
+  background-color: #37BB0A;
+  text-decoration: none;
+  font-family: Ubuntu, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  color: white;
+}
+.serViajero .botonPrincipalActivo:hover {
+  transform: scale(1.1, 1.1);
+  transition: all 1s;
+}
+
+#registro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#registro .img {
+  width: 240px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+#registro .campoRegistro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#registro .campoRegistro div {
+  width: 300px;
+}
+#registro .campoRegistro div p {
+  font-size: 18px;
+  font-weight: 700;
+  font-family: Ubuntu, sans-serif;
+}
+#registro .campoRegistro div input {
+  width: 100%;
+  border: solid 1px #C2CCC2;
+  border-radius: 8px;
+  height: 44px;
+  margin-bottom: 11px;
+  font-family: Ubuntu, sans-serif;
+}
+#registro .password {
+  display: flex;
+  flex-direction: row;
+  width: 300px;
+  background-color: white;
+  border: solid 1px #C2CCC2;
+  border-radius: 8px;
+  justify-content: space-between;
+}
+#registro .password div {
+  display: flex;
+  flex-direction: row;
+}
+#registro .password div input {
+  background-color: transparent;
+  border: none;
+}
+#registro .password .icon {
+  width: 44px;
+}
+#registro .botonPrincipalInactivo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  width: 314px;
+  height: 44px;
+  border-radius: 8px;
+  border: none;
+  background-color: #C2CCC2;
+  text-decoration: none;
+  font-family: Ubuntu, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  color: white;
+}
+#registro .botonPrincipalInactivo:hover {
+  transform: scale(1.1, 1.1);
+  transition: all 1s;
+}
+
 /*# sourceMappingURL=style.css.map */
