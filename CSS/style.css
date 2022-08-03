@@ -92,6 +92,9 @@ body {
   margin-top: 200px;
   margin-bottom: 200px;
 }
+.serViajero .img img {
+  width: 100%;
+}
 .serViajero .botonPrincipalActivo {
   display: flex;
   flex-direction: column;
@@ -204,7 +207,7 @@ body {
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 800px;
+  height: 1000px;
   background-color: #37BB0A;
 }
 #welcome .title {
