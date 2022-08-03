@@ -238,4 +238,201 @@ body {
   transition: all 1s;
 }
 
+#inicioSesion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#inicioSesion .logo {
+  width: 300px;
+  margin-top: 200px;
+  margin-bottom: 100px;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+#inicioSesion .logo img {
+  margin: 5px;
+  width: 100%;
+}
+#inicioSesion .redes {
+  width: 300px;
+  margin-bottom: 50px;
+}
+#inicioSesion .redes .title p {
+  font-family: Ubuntu, sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: black;
+  text-align: start;
+}
+#inicioSesion .redes .inicioGoogle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 300px;
+  height: 44px;
+  background-color: #D1D1D1;
+  border: solid 1px #C2CCC2;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+#inicioSesion .redes .inicioGoogle img {
+  width: 30px;
+  height: 30px;
+  padding: 2px;
+  margin-left: 5px;
+}
+#inicioSesion .redes .inicioGoogle button {
+  background-color: transparent;
+  border: none;
+  text-align: center;
+  width: 250px;
+  font-family: Ubuntu, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+}
+#inicioSesion .redes .inicioFacebook {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 300px;
+  height: 44px;
+  background-color: #3A589C;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+#inicioSesion .redes .inicioFacebook img {
+  width: 30px;
+  height: 30px;
+  padding: 2px;
+  margin-left: 5px;
+}
+#inicioSesion .redes .inicioFacebook button {
+  background-color: transparent;
+  border: none;
+  text-align: center;
+  width: 250px;
+  font-family: Ubuntu, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  color: white;
+}
+#inicioSesion .redes div p {
+  font-family: Ubuntu, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+}
+#inicioSesion .datosPersonales {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+}
+#inicioSesion .datosPersonales .usuario {
+  width: 300px;
+  height: 44px;
+  background-color: white;
+  border: solid 1px #C2CCC2;
+  border-radius: 8px;
+  margin: 11px;
+  align-items: center;
+  justify-content: center;
+}
+#inicioSesion .datosPersonales .usuario input {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border: none;
+}
+#inicioSesion .datosPersonales .password {
+  display: flex;
+  flex-direction: row;
+  width: 300px;
+  background-color: white;
+  border: solid 1px #C2CCC2;
+  border-radius: 8px;
+  justify-content: space-between;
+}
+#inicioSesion .datosPersonales .password div {
+  display: flex;
+  flex-direction: row;
+}
+#inicioSesion .datosPersonales .password div input {
+  background-color: transparent;
+  border: none;
+  width: 250px;
+}
+#inicioSesion .datosPersonales .password .icon {
+  width: 44px;
+}
+#inicioSesion .olvidepassword p {
+  font-family: Ubuntu, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: black;
+  text-align: start;
+}
+#inicioSesion .boton {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+  align-items: center;
+  width: 300px;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+#inicioSesion .boton .recordar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 200px;
+}
+#inicioSesion .boton .recordar .circulo {
+  width: 15px;
+  height: 15px;
+  border: solid 1px;
+  border-radius: 10px;
+}
+#inicioSesion .boton .recordar p {
+  width: 67px;
+  margin-left: 5px;
+  font-family: Ubuntu, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: black;
+  text-align: start;
+}
+#inicioSesion .boton .botonPrincipalActivo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 145px;
+  height: 44px;
+  border-radius: 8px;
+  border: none;
+  background-color: #37BB0A;
+  text-decoration: none;
+  font-family: Ubuntu, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  color: white;
+}
+#inicioSesion .boton .botonPrincipalActivo:hover {
+  transform: scale(1.1, 1.1);
+  transition: all 1s;
+}
+#inicioSesion .registrarme {
+  width: 200px;
+}
+#inicioSesion .registrarme p {
+  font-family: Ubuntu, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: black;
+  text-align: center;
+}
+
 /*# sourceMappingURL=style.css.map */
