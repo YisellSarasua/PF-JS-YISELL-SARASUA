@@ -5,6 +5,7 @@ window.addEventListener ('load', () => {
     const email = document.getElementById ('email');
     const password = document.getElementById ('password');
 
+
     registro.addEventListener('submit', (e) => {
         e.preventDefault();
         console.log ('enviar');
@@ -38,17 +39,19 @@ window.addEventListener ('load', () => {
 
         } else if (!emailValido(dataEmail)) {
             validacionErronea (email,'Email ingresado no es valido');
-
         } else {
             
             validacionCorrecta(email);
         }
-
-
-
-
-
         
+        if(!dataPassword){
+            validacionErronea (password,'* Campo obligatorio');
+        } else if (dataPassword.length < 8) {
+            validacionErronea (password,'* Debe contener 8 caracteres');
+        } else {
+            validacionCorrecta(password);
+        }
+
         console.log (dataNombre);
         console.log (dataUsuario);
         console.log (dataEmail);
@@ -60,13 +63,13 @@ window.addEventListener ('load', () => {
         const validacionForm = input.parentElement;
         const aviso = validacionForm.querySelector ('p');
         aviso.innerText = mensaje;
-        validacionForm.className = 'mensaje falla';
+        validacionForm.className = 'form-control falla';
 
     }
 
     function validacionCorrecta (input){
         const validacionForm = input.parentElement;
-        validacionForm.className = 'mensaje falla';
+        validacionForm.className = 'form-control correcta';
     }
 
     function emailValido(email){

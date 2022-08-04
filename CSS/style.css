@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(246, 246, 246);
+  background-color: white;
 }
 
 #container {
@@ -133,17 +133,53 @@ body {
   justify-content: center;
   align-items: center;
 }
-#registro .campoRegistro div {
+#registro .campoRegistro .form-control {
   width: 300px;
 }
-#registro .campoRegistro div p {
+#registro .campoRegistro .form-control p {
   font-size: 18px;
   font-weight: 700;
   font-family: Ubuntu, sans-serif;
+  visibility: hidden;
 }
-#registro .campoRegistro div input {
+#registro .campoRegistro .form-control input {
   width: 100%;
   border: solid 1px #C2CCC2;
+  border-radius: 8px;
+  height: 44px;
+  margin-bottom: 11px;
+  font-family: Ubuntu, sans-serif;
+}
+#registro .campoRegistro .form-control .correcta {
+  width: 300px;
+}
+#registro .campoRegistro .form-control .correcta p {
+  font-size: 18px;
+  font-weight: 700;
+  font-family: Ubuntu, sans-serif;
+  visibility: hidden;
+}
+#registro .campoRegistro .form-control .correcta input {
+  width: 100%;
+  border: solid 1px #C2CCC2;
+  border-radius: 8px;
+  height: 44px;
+  margin-bottom: 11px;
+  font-family: Ubuntu, sans-serif;
+}
+#registro .campoRegistro .form-control.falla {
+  width: 300px;
+}
+#registro .campoRegistro .form-control.falla p {
+  font-size: 12px;
+  font-weight: 400;
+  font-family: Ubuntu, sans-serif;
+  color: #e22d00;
+  visibility: visible;
+}
+#registro .campoRegistro .form-control.falla input {
+  width: 100%;
+  border: solid 2px #e22d00;
   border-radius: 8px;
   height: 44px;
   margin-bottom: 11px;
@@ -153,19 +189,17 @@ body {
   display: flex;
   flex-direction: row;
   width: 300px;
+  height: 45px;
   background-color: white;
-  border: solid 1px #C2CCC2;
   border-radius: 8px;
   justify-content: space-between;
+  margin-bottom: 100px;
 }
-#registro .password div {
-  display: flex;
-  flex-direction: row;
-}
-#registro .password div input {
+#registro .password input {
   background-color: transparent;
   border: none;
-  width: 250px;
+  width: 300px;
+  color: transparent;
 }
 #registro .password .icon {
   width: 44px;

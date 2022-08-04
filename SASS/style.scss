@@ -1,7 +1,7 @@
 
 
 body{
-    background-color: rgb(246, 246, 246);
+    background-color: white;
     
 
 }
@@ -177,12 +177,13 @@ body{
         align-items: center;
        
 
-        div{
+        .form-control{
             width: 300px;
             p{
                 font-size: 18px;
                 font-weight: 700;
                 font-family: Ubuntu, sans-serif;
+                visibility: hidden;
             }
         
             input{
@@ -192,51 +193,95 @@ body{
                 height: 44px;
                 margin-bottom: 11px;
                 font-family: Ubuntu, sans-serif;
+                
+                
             
             }
 
-           
+        }
+
+        .form-control .correcta{
+            width: 300px;
+            p{
+                font-size: 18px;
+                font-weight: 700;
+                font-family: Ubuntu, sans-serif;
+                visibility: hidden;
+            }
+        
+            input{
+                width: 100%;
+                border: solid 1px #C2CCC2;
+                border-radius: 8px;
+                height: 44px;
+                margin-bottom: 11px;
+                font-family: Ubuntu, sans-serif;
+                
+                
+            
+            }
+
+        }
+
+        .form-control.falla{
+            width: 300px;
+            p{
+                font-size: 12px;
+                font-weight: 400;
+                font-family: Ubuntu, sans-serif;
+                color: #e22d00;
+                visibility: visible;
+            }
+        
+            input{
+                width: 100%;
+                border: solid 2px #e22d00;
+                
+                border-radius: 8px;
+                height: 44px;
+                margin-bottom: 11px;
+                font-family: Ubuntu, sans-serif;
+                
+                
+            
+            }
+
+        }
+
+      
+
+       
 
         }
       
-     
-        
-        
-    }
 
     .password{
         
         display: flex;
         flex-direction: row;
         width: 300px;
+        height: 45px;
         background-color: white;
-        border: solid 1px #C2CCC2 ;
+     
         border-radius: 8px;
         justify-content: space-between;
-
+        margin-bottom: 100px;
         
-       
 
-        div{
-            display: flex;
-            flex-direction: row;
-            
-          
+    
 
-            input{
-                background-color: transparent;
-                border: none;
-                width: 250px;
-            }
-
-        
+        input{
+            background-color: transparent;
+            border: none;
+            width: 300px;
+            color: transparent;
         }
         .icon{
             width: 44px;
             
         }
 
-       
+    
         
     }
 
@@ -283,8 +328,6 @@ body{
 
    
 
-    
-    
 
 }
 
@@ -632,6 +675,7 @@ body{
 
 
 }
+
 
 
 
